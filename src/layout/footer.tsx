@@ -10,7 +10,7 @@ const Footer = () => {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
-        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+        className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
       >
         {/* Column 1: Logo and Contact */}
         <div>
@@ -116,7 +116,7 @@ const Footer = () => {
 
       <div className="text-center mt-10 text-sm text-gray-500 border-t border-gray-800 pt-4">
         © {new Date().getFullYear()} Force-BD. All rights reserved. By{" "}
-        <Link href={"/hexnova"} className="text-blue-600 font-bold">
+        <Link href={"https://hexnova.com"} className="text-blue-600 font-bold">
           Hexnova
         </Link>
       </div>

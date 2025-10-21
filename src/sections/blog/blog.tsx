@@ -2,13 +2,17 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import blog1 from "../../../public/assets/blog/blog-1.png";
+import blog2 from "../../../public/assets/blog//blog-2.png";
+import blog3 from "../../../public/assets/blog/blog-3.png";
+import blog4 from "../../../public/assets/blog/blog-4.png";
 
 const blogs = [
   {
     id: 1,
     title: "Top 5 Benefits of Hiring Professional Security Guards",
     date: "October 18, 2025",
-    image: "/images/security-guards.jpg",
+    image: blog1,
     description:
       "Learn how professional security guards can protect your business and create a safe environment for employees and customers.",
   },
@@ -16,7 +20,7 @@ const blogs = [
     id: 2,
     title: "How CCTV Systems Reduce Crime in Commercial Areas",
     date: "October 10, 2025",
-    image: "/images/cctv-security.jpg",
+    image: blog2,
     description:
       "Explore how CCTV surveillance plays a key role in deterring theft, vandalism, and unauthorized access to restricted zones.",
   },
@@ -24,7 +28,7 @@ const blogs = [
     id: 3,
     title: "Choosing the Right Security Solution for Your Business",
     date: "September 25, 2025",
-    image: "/images/security-control.jpg",
+    image: blog3,
     description:
       "Discover the best ways to evaluate your security needs and implement a tailored protection plan that fits your goals.",
   },
@@ -32,9 +36,25 @@ const blogs = [
     id: 4,
     title: "How Alarm Systems Improve Emergency Response Time",
     date: "August 30, 2025",
-    image: "/images/alarm-system.jpg",
+    image: blog4,
     description:
       "Understand how modern alarm systems enhance real-time monitoring and ensure quick response during critical situations.",
+  },
+  {
+    id: 5,
+    title: "Top 5 Benefits of Hiring Professional Security Guards",
+    date: "October 18, 2025",
+    image: blog1,
+    description:
+      "Learn how professional security guards can protect your business and create a safe environment for employees and customers.",
+  },
+  {
+    id: 6,
+    title: "How CCTV Systems Reduce Crime in Commercial Areas",
+    date: "October 10, 2025",
+    image: blog2,
+    description:
+      "Explore how CCTV surveillance plays a key role in deterring theft, vandalism, and unauthorized access to restricted zones.",
   },
 ];
 
