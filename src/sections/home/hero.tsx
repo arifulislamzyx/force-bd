@@ -5,8 +5,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import Image, { StaticImageData } from "next/image";
-import img1 from "../../../public/assets/force-bd-img1.jpg";
-import img2 from "../../../public/assets/force-bd-img2.jpg";
+import img1 from "../../../public/assets/force-bd-img1.png";
+import img2 from "../../../public/assets/force-bd-img2.png";
 import img3 from "../../../public/assets/force-bd-img3.jpg";
 import { KeenSliderInstance } from "keen-slider";
 
